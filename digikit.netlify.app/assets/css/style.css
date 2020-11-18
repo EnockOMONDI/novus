@@ -1686,7 +1686,8 @@ textarea {
   .box .box-particles2 {
     position: absolute;
     top: -1rem;
-    right: -1rem; }
+    right: -1rem; 
+  opacity: 0;}
   .box .box-num {
     font-size: 3rem;
     font-weight: 900;
@@ -1718,7 +1719,7 @@ textarea {
     .box.has-primary-bg .box-desc {
       color: #fff; }
   .box.has-grad1 {
-    background: linear-gradient(45deg, #231F73, #ff7315);
+    background: linear-gradient(45deg, rgb(4, 3, 32), #ff7315);
     transition: 0.2s cubic-bezier(0.5, 0, 0.35, 1); }
     .box.has-grad1:hover {
       transform: scale(1.02);
@@ -1742,22 +1743,21 @@ textarea {
     .box.has-grad2 .box-desc {
       color: #fff; }
   .box.has-blue-text .box-title {
-    color: #3639A3; }
+    color: rgb(4, 3, 32); }
   .box.has-blue-text .box-desc {
-    color: #3639A3; }
+    color: rgb(4, 3, 32); }
   .box.has-blue-text svg {
-    color: #3639A3; }
+    color: rgb(4, 3, 32); }
   .box.has-blue-text ion-icon {
-    color: #3639A3; }
+    color: rgb(4, 3, 32); }
   .box.has-blue-text path {
-    color: #3639A3; }
+    color: rgb(4, 3, 32); }
   .box.has-secondary-bg {
-    background: #3639A3;
-    transition: 0.2s cubic-bezier(0.5, 0, 0.35, 1); }
+    background: linear-gradient(330deg, rgba(255,115,21,1) 38%, rgba(11,13,33,1) 100%);     transition: 0.2s cubic-bezier(0.5, 0, 0.35, 1); }
     .box.has-secondary-bg:hover {
       transform: scale(1.02);
       box-shadow: 0 14px 33px -3px rgba(0, 0, 0, 0.098); }
-    .box.has-secondary-bg .box-icon ion-icon {
+    .box.has-secondary-bg .box-icon  {
       color: #fff; }
     .box.has-secondary-bg .box-title {
       color: #fff; }
@@ -1765,12 +1765,17 @@ textarea {
       color: #fff; }
   .box.has-shadow {
     background: #fff;
-    box-shadow: 0 0 0 0 #eee;
+    box-shadow: 0 0 0 0 rgb(223, 223, 223);
     box-shadow: 0 14px 33px -3px rgba(0, 0, 0, 0.078);
     transition: 0.2s cubic-bezier(0.5, 0, 0.35, 1); }
-    .box.has-shadow:hover {
-      transform: scale(1.02);
+    .box.has-shadow:hover{
+      
+      transform: scale(1.12);
+      color: #fff;
       box-shadow: 0 14px 33px -3px rgba(0, 0, 0, 0.098); }
+      .box.has-shadow .box-desc .box-title:hover{
+   color: #fff;
+      }
   .box.has-left-icon .box-title {
     margin: 5px 0 10px; }
 
@@ -1807,7 +1812,7 @@ textarea {
   .navbar .navbar-menu > li {
     display: inline-block;
     justify-items: flex-end;
-    margin-right: 1.8rem;
+    margin-right: 1.2rem;
     color: #4a4a4a;
     position: relative;
     line-height: 100%; }
@@ -1853,7 +1858,7 @@ textarea {
       box-shadow: 0 6px 61px 0 rgba(11, 12, 62, 0.14);
       border-radius: 8px;
       border: solid 1px #f7f7f7;
-      min-width: 17rem;
+      min-width: 19rem;
       z-index: 9999999; }
     .navbar .navbar-menu > li .sub-menu li {
       display: block;
@@ -2003,7 +2008,7 @@ textarea {
   .header.in-index {
     padding-top: 0;
     margin-bottom: 0;
-    background: #3639A3;
+    background: rgb(4, 3, 32);
     color: #fff;
     position: relative;
     z-index: 0;
@@ -2143,7 +2148,7 @@ textarea {
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     z-index: -1; }
   .header.has-style3 {
-    background: #3639A3;
+    background: rgb(4, 3, 32);
     position: relative; }
     .header.has-style3::before {
       content: "";
@@ -2295,7 +2300,7 @@ textarea {
       z-index: -1; }
 
 .header-page {
-  background: #3639A3;
+  background: rgb(4, 3, 32);
   position: relative;
   z-index: 3; }
   .header-page .line-menu {
@@ -2719,7 +2724,7 @@ textarea {
   .section.section-grey {
     background: #f1eff5; }
   .section.primary-bg {
-    background: #3639A3; }
+    background: rgb(4, 3, 32); }
   .section.section-demos {
     background: #F1F1F9; }
     .section.section-demos .demo-item {
@@ -2834,7 +2839,7 @@ textarea {
         .section.section-feautures .feautures-boxes .feautures-box:hover .feather {
           color: #ff2c52; }
   .section.section-feautures2 {
-    background: #3639A3;
+    background: rgb(4, 3, 32);
     position: relative; }
     .section.section-feautures2::before {
       content: "";
@@ -3738,7 +3743,7 @@ textarea {
             .section.section-plans .plan-item.is-grad1 .list-items .item ion-icon {
               color: #fff; }
       .section.section-plans .plan-item.is-dark {
-        background: #3639A3; }
+        background: rgb(4, 3, 32); }
         .section.section-plans .plan-item.is-dark .plan-title {
           color: #fff; }
         .section.section-plans .plan-item.is-dark .price-var {
@@ -4272,7 +4277,7 @@ textarea {
       background: transparent !important; }
   .footer.has-style1 .footer-head {
     position: relative;
-    background: #3639A3; }
+    background: rgb(4, 3, 32); }
     .footer.has-style1 .footer-head .to-top {
       display: flex;
       justify-content: center;
@@ -5273,7 +5278,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     border-radius: 10px; }
     .page-sign .sign-wrap .sign-right {
       height: 50rem;
-      background: #3639A3; }
+      background: rgb(4, 3, 32); }
 
 .index-page .demo {
   border-radius: 2px;
