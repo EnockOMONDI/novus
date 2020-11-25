@@ -2777,7 +2777,7 @@ textarea {
         display: flex;
         justify-content: center; }
         .section.section-companies.has-style1 .company-item img {
-          max-height: 2rem;
+          max-height: 3rem;
           margin-bottom: 30px;
           transition: .25s ease-in-out; }
           @media screen and (max-width: 768px) {
@@ -2787,7 +2787,7 @@ textarea {
             .section.section-companies.has-style1 .company-item img {
               max-height: 2rem; } }
           .section.section-companies.has-style1 .company-item img:hover {
-            transform: scale(1.1); }
+            transform: scale(1.6); }
       @media screen and (max-width: 992px) {
         .section.section-companies.has-style1 {
           padding: 4rem 1rem; }
@@ -4147,7 +4147,7 @@ textarea {
     .section-companies2 .company-item:hover {
       transform: rotateX(-5deg) translateZ(50px); }
     .section-companies2 .company-item img {
-      width: 70%; }
+      width: 75%; }
 
 .section-blog2 .card-blog {
   margin: 0 0 3rem;
