@@ -3318,7 +3318,7 @@ textarea {
     .section.section-testimonial .client-quote {
       color: #fff;
       text-align: center;
-      max-width: 25rem; }
+      max-width: 20rem; }
     .section.section-testimonial .client-img {
       border-radius: 100%;
       margin-bottom: 20px;
@@ -3405,7 +3405,7 @@ textarea {
         font-size: 20px;
         font-weight: 500;
         line-height: 38px;
-        max-width: 40rem;
+        max-width: 35rem;
         margin-left: auto;
         margin-right: auto; }
   .section.section-testimonial4 .quote-wrap {
