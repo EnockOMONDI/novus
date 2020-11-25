@@ -2961,7 +2961,7 @@ textarea {
     .section.section-clients .client-wrap {
       overflow: hidden;
       border-radius: 5px;
-      box-shadow: 5px 10px 35px #00000014; }
+      box-shadow: 5px 10px 35px #00000036; }
     .section.section-clients .client-logo {
       background: #282828;
       height: 20rem;
@@ -3287,7 +3287,7 @@ textarea {
       padding-top: 6rem;
       padding-bottom: 6rem;
       background-position: center;
-      background-size: 120%;
+      background-size:100%;
       background-repeat: no-repeat;
       height: 100%;
       display: flex;
@@ -3318,14 +3318,15 @@ textarea {
     .section.section-testimonial .client-quote {
       color: #fff;
       text-align: center;
-      max-width: 20rem; }
+      max-width: 25rem; }
     .section.section-testimonial .client-img {
       border-radius: 100%;
       margin-bottom: 20px;
       display: flex;
       justify-content: center; }
       .section.section-testimonial .client-img img {
-        max-width: 5rem; }
+        max-width: 5rem;
+        border-radius: 50%;}
     .section.section-testimonial .client-name {
       margin-top: 20px;
       color: #fff;
