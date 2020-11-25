@@ -1759,7 +1759,7 @@ textarea {
   .box.has-blue-text path {
     color: rgb(4, 3, 32); }
   .box.has-secondary-bg {
-    background: linear-gradient(330deg, rgba(255,115,21,1) 38%, rgba(11,13,33,1) 100%);     transition: 0.2s cubic-bezier(0.5, 0, 0.35, 1); }
+    background: linear-gradient(330deg, rgb(209, 85, 1) 38%, #FF7315 100%);     transition: 0.2s cubic-bezier(0.5, 0, 0.35, 1); }
     .box.has-secondary-bg:hover {
       transform: scale(1.02);
       box-shadow: 0 14px 33px -3px rgba(0, 0, 0, 0.098); }
