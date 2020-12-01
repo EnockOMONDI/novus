@@ -570,6 +570,9 @@ TABLE OF CONTENTS
 ========================================================== */
 .text-primary {
   color: #ff7315 !important; }
+.text-primary2 {
+    color: #ffffff !important;
+  z-index: 2; }
 
 /* ----------------------------- Font Size */
 .font-s-1 {
@@ -875,6 +878,8 @@ h6 {
   font-size: 3rem;
   color: #fff; }
 
+p #whitewhite {
+  color: #ffffff !important; } 
 p {
   color: #747474; }
 
@@ -3630,7 +3635,7 @@ textarea {
         content: "";
         height: 100%;
         width: 100%;
-        background: linear-gradient(to top right, #450b7c, #563cc9, #49e9fb);
+        background: linear-gradient(to top right, #ff7315, #563cc9, rgb(6, 5, 29));
         position: absolute;
         opacity: .8; }
       .section.section-video .video img {
@@ -4096,7 +4101,8 @@ textarea {
         .section.section-trial .plan-boxes .plan-box.is-active .price-title {
           color: #fff; }
   .section.section-call2action {
-    background-size: cover; }
+    background-size: cover;
+ color: #ffffff; }
     .section.section-call2action::before {
       content: "";
       position: absolute;
@@ -4104,15 +4110,17 @@ textarea {
       width: 100%;
       background: #000;
       top: 0;
-      opacity: .3; }
+      opacity: .3;
+      color: #ffffff; }
     .section.section-call2action.is-grad2::before {
       content: "";
       height: 100%;
       width: 100%;
-      background: linear-gradient(to top right, #450b7c, #563cc9, #49e9fb);
+      background: linear-gradient(to top right, #ff7315, #793508, rgb(6, 5, 29));
       position: absolute;
-      opacity: .8; }
-
+      opacity: .6; 
+      color: #ffffff;}
+      
 /*====================================
     ========= section  help
     =====================================*/
