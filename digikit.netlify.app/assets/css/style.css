@@ -2721,7 +2721,12 @@ textarea {
     overflow: hidden; }
     @media screen and (max-width: 576px) {
       .section .section-shape2 {
-        transform: translate(50%, -50%) scale(1.5); } }
+        transform: translate(50%, -50%) scale(1.2);
+       }
+      .client-quote{
+        font-size: 70%;
+        margin-left: 9%;
+      } }
   .section .lines {
     position: absolute;
     top: 0;
