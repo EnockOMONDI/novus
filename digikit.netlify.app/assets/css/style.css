@@ -573,7 +573,10 @@ TABLE OF CONTENTS
 .text-primary2 {
     color: #ffffff !important;
   z-index: 2; }
-
+.text-grad2{
+  color: linear-gradient(45deg,#ff7315,rgb(6, 5, 29))!important;
+  z-index: 2;
+}
 /* ----------------------------- Font Size */
 .font-s-1 {
   font-size: 1rem; }
